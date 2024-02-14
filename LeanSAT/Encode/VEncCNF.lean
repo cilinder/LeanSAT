@@ -18,7 +18,7 @@ and verify what a particular `EncCNF` value actually encodes.
 
 namespace LeanSAT.Encode
 
-open Model PropFun EncCNF
+open Model PropFun EncCNF MyFinEnum
 
 namespace EncCNF
 

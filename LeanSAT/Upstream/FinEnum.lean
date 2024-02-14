@@ -10,6 +10,8 @@ import Mathlib.Tactic.Linarith
 import LeanSAT.Upstream.ToStd
 import LeanSAT.Upstream.ToMathlib
 
+namespace MyFinEnum
+
 /-- Intended to clash with Mathlib's FinEnum -/
 class FinEnum (α : Type u) where
   card : Nat
@@ -93,3 +95,7 @@ instance [FinEnum α] : Fintype α where
   complete := by
     intro x
     simp
+
+end FinEnum
+
+end MyFinEnum

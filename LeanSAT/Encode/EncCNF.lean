@@ -18,7 +18,7 @@ open Std
 
 namespace LeanSAT.Encode
 
-open Model
+open Model MyFinEnum
 
 namespace EncCNF
 
